@@ -1,6 +1,6 @@
-name = "PICOfortran"
+name = "PICO_Fortran"
 version = "0.1.0"
-license = "license"
+license = "Apache-2.0"
 author = "dmr-dj"
 maintainer = "didier.roche@lsce.ipsl.fr"
 copyright = "Copyright 2022, dmr-dj"

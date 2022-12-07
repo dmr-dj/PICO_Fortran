@@ -1,5 +1,5 @@
 program main
-  use PICOfortran, only: say_hello
+  use PICO_Fortran, only: say_hello
   implicit none
 
   call say_hello()
