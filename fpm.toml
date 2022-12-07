@@ -1,0 +1,12 @@
+name = "PICOfortran"
+version = "0.1.0"
+license = "license"
+author = "dmr-dj"
+maintainer = "didier.roche@lsce.ipsl.fr"
+copyright = "Copyright 2022, dmr-dj"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
