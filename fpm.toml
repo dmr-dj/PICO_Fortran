@@ -4,9 +4,14 @@ license = "Apache-2.0"
 author = "dmr-dj"
 maintainer = "didier.roche@lsce.ipsl.fr"
 copyright = "Copyright 2022, dmr-dj"
+[dependencies]
+ncio.git = "https://github.com/dmr-dj/ncio"
+ncio.branch = "fpm"
 [build]
 auto-executables = true
 auto-tests = true
 auto-examples = true
+external-modules = ["netcdff","netcdf"]
+link = ["netcdff","netcdf"]
 [install]
 library = false
