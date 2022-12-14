@@ -1,6 +1,6 @@
 program main
-  use PICO_Fortran, only: say_hello
+  use PICO_Fortran, only: run_PICO_geom_ISOMIP
   implicit none
 
-  call say_hello()
+  call run_PICO_geom_ISOMIP()
 end program main
