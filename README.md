@@ -2,7 +2,7 @@
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+[![Commits][commits-shield]][commits-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Apache-2.0 License][license-shield]][license-url]
@@ -49,8 +49,8 @@ fpm run
 
 [contributors-shield]: https://img.shields.io/github/contributors/dmr-dj/PICO_Fortran
 [contributors-url]: https://github.com/dmr-dj/PICO_Fortran/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dmr-dj/PICO_Fortran
-[forks-url]: https://github.com/dmr-dj/PICO_Fortran/network/members
+[commits-shield]: https://img.shields.io/github/commit-activity/y/dmr-dj/PICO_Fortran
+[commits-url]: https://github.com/dmr-dj/PICO_Fortran/graphs/commit-activity
 [stars-shield]: https://img.shields.io/github/stars/dmr-dj/PICO_Fortran
 [stars-url]: https://github.com/dmr-dj/PICO_Fortran/stargazers
 [issues-shield]: https://img.shields.io/github/issues/dmr-dj/PICO_Fortran
