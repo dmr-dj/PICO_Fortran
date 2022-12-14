@@ -1,3 +1,5 @@
+<!-- README updated loosely based on: https://github.com/othneildrew/Best-README-Template -->
+
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -19,3 +21,17 @@ Please refer to the original source when using. License of the dataset: CC BY-SA
 
 ## FPM
 PICO_Fortran is packaged for the <a href="https://github.com/fortran-lang/fpm">Fortran Package Manager</a>, using a toml description file. Currently the build and app/run are functional.
+
+
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/dmr-dj/PICO_Fortran
+[contributors-url]: https://github.com/dmr-dj/PICO_Fortran/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dmr-dj/PICO_Fortran
+[forks-url]: https://github.com/dmr-dj/PICO_Fortran/network/members
+[stars-shield]: https://img.shields.io/github/stars/dmr-dj/PICO_Fortran
+[stars-url]: https://github.com/dmr-dj/PICO_Fortran/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dmr-dj/PICO_Fortran
+[issues-url]: https://github.com/dmr-dj/PICO_Fortran/issues
+[license-shield]: https://img.shields.io/github/license/dmr-dj/PICO_Fortran
+[license-url]: https://github.com/dmr-dj/PICO_Fortran/blob/master/LICENSE.txt
