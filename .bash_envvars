@@ -1,0 +1,11 @@
+# Setup for netcdf external libraries 
+
+export NETCDF_CFLAGS=""
+export NETCDF_FFLAGS="-I/usr/include"
+export FPM_FFLAGS="${NETCDF_CFLAGS} ${NETCDF_FFLAGS}"
+
+export NETCDF_CLIBS="" 
+export NETCDF_FLIBS="-L/usr/lib/x86_64-linux-gnu"
+export FPM_LDFLAGS="${NETCDF_CLIBS} ${NETCDF_FLIBS}"
+
+#The End of All Things (op. cit.)
