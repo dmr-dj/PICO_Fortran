@@ -22,8 +22,30 @@ Please refer to the original source when using. License of the dataset: CC BY-SA
 ## FPM
 PICO_Fortran is packaged for the <a href="https://github.com/fortran-lang/fpm">Fortran Package Manager</a>, using a toml description file. Currently the build and app/run are functional.
 
+Since there are external dependencies, you need to specify where they lies if they are not in your standard path. For example, setting the following environnement variables for the NetCDF libraries:
+
+```
+export NETCDF_CFLAGS=""
+export NETCDF_FFLAGS="-I/usr/include"
+export FPM_FFLAGS="${NETCDF_CFLAGS} ${NETCDF_FFLAGS}"
+
+export NETCDF_CLIBS="" 
+export NETCDF_FLIBS="-L/usr/lib/x86_64-linux-gnu"
+export FPM_LDFLAGS="${NETCDF_CLIBS} ${NETCDF_FLIBS}"
+```
+
+Then you can run the build with fpm:
+```
+fpm build
+```
+
+With successful built, you can run the standard example:
+```
+fpm run
+```
 
 
+<!-- Other stuff taken to get the shields correctly -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/dmr-dj/PICO_Fortran
 [contributors-url]: https://github.com/dmr-dj/PICO_Fortran/graphs/contributors
